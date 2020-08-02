@@ -18,11 +18,11 @@ function fetchUrl($url){
 
 }
 
-$profile_id = "136976606323689";
+$profile_id = "####";
 
 //App Info, needed for Auth
-$app_id = "1639516836335456";
-$app_secret = "a8951e5d5dcc747fa9261b6747a9275d";
+$app_id = "###";
+$app_secret = "###";
 
 //Retrieve auth token
 $authToken = fetchUrl("https://graph.facebook.com/oauth/access_token?grant_type=client_credentials&client_id={$app_id}&client_secret={$app_secret}");
